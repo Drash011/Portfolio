@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Main CSS -->
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <!-- Media Query -->
+    <link href="media.css" type="text/css" rel="stylesheet">
+    <!-- BootStrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <main>
+
+        <!-- Header Section -->
+        <div class="header">
+            <button class="toggle-btn d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#sidebar">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="offcanvas offcanvas-start sidebar-wrap" id="sidebar">
+
+                <div class="sidebar-card">
+
+                    <ul class="menu">
+                        <li>
+                            <a href="#home"><i class="fas fa-home"></i> Home</a>
+                        </li>
+                        <li>
+                            <a href="#about"><i class="fas fa-user"></i> About</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio"><i class="fas fa-image"></i> Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#service"><i class="fas fa-cogs"></i> Services</a>
+                        </li>
+                        <li>
+                            <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="social">
+                        <a href="https://x.com/DrashtiT097"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://github.com/Drash011"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/drashti_thummar01/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/drashti-thummar-07b847389"><i
+                                class="fab fa-linkedin"></i></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Main Section -->
+        <div class="main">
+
+            <!-- Hero Section -->
+            <div class="container-fluid" id="home">
+                <div class="row align-items-center justify-content-center min-vh-100">
+
+                    <div class="col-lg-7 col-12 mx-auto my-5 hero-text reveal-left">
+
+                        <h1 class="name">Drashti Thummar</h1>
+
+                        <h4 class="typing">
+                            I'm a <span id="type"></span><span class="cursor">|</span>
+                        </h4>
+
+                        <p class="desc">
+                            Passionate about creating exceptional digital experiences that blend innovative design with
+                            functional development. Let's bring your vision to life.
+                        </p>
+
+                        <div class="btns">
+                            <button class="btn primary">View My Work</button>
+                            <button class="btn outline">Get In Touch</button>
+                        </div>
+
+                        <div class="social2">
+                            <a href="https://x.com/DrashtiT097"><i class="fab fa-x-twitter"></i></a>
+                            <a href="https://github.com/Drash011"><i class="fab fa-github"></i></a>
+                            <a href="https://www.instagram.com/drashti_thummar01/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/drashti-thummar-07b847389"><i
+                                    class="fab fa-linkedin"></i></a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-5 col-12 mx-auto my-5 text-center reveal-right">
+
+                        <div class="image-box">
+                            <div class="zone top-left"></div>
+                            <div class="zone top-right"></div>
+                            <div class="zone bottom-left"></div>
+                            <div class="zone bottom-right"></div>
+
+                            <img src="images/my-img.png" class="profile-img">
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- About Section -->
+            <section class="about" id="about">
+
+                <div class="row align-items-center">
+
+                    <div class="col-lg-5 mb-5 reveal-left">
+                        <div class="about-card glass">
+
+                            <div class="profile2-img">
+                                <img src="images/me.png" alt="My Image">
+                            </div>
+
+                            <h3>Drashti Thummar</h3>
+                            <p class="role">Frontend Developer</p>
+
+                            <div class="info-box2 text-start">
+                                <i class="fas fa-envelope me-3 fs-5"></i>
+                                <span>thummard097@gmail.com</span>
+                            </div>
+
+                            <div class="info-box2 text-start">
+                                <i class="fas fa-phone me-3 fs-5"></i>
+                                <span>+91 70164 92334</span>
+                            </div>
+
+                            <div class="info-box2 text-start">
+                                <i class="fas fa-map-marker-alt me-3 fs-5"></i>
+                                <span>Surat, India</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7 about-content reveal-right">
+
+                        <span class="tag">Get to Know Me</span>
+
+                        <h2 class="title">
+                            Passionate About Creating Digital Experiences
+                        </h2>
+
+                        <p class="desc2">
+                            I am a detail-oriented Frontend Developer specializing in building clean, high-performance
+                            web applications using HTML5, CSS3, and JavaScript . I am passionate about crafting
+                            intuitive user interfaces, optimizing for accessibility, and ensuring pixel-perfect
+                            responsiveness across all devices.
+                        </p>
+
+                        <p class="desc2">
+                            Highly motivated Frontend Developer with a strong foundation in modern web technologies,
+                            including React, Tailwind CSS, and Git. Dedicated to crafting intuitive and visually
+                            appealing interfaces with a keen eye for detail.
+                        </p>
+
+                        <!-- STATS -->
+                        <div class="stats">
+
+                            <div>
+                                <h3 class="counter" data-target="50">0</h3>
+                                <p>Projects</p>
+                            </div>
+
+                            <div>
+                                <h3 class="counter" data-target="98">0</h3>
+                                <p>Satisfaction</p>
+                            </div>
+                        </div>
+
+                        <div class="row mt-4">
+
+                            <div class="col-md-6">
+                                <div class="about-info">
+                                    <h6>Specialization</h6>
+                                    <h4>Frontend Development</h4>
+                                </div>
+
+                                <div class="about-info">
+                                    <h6>Education</h6>
+                                    <h4>Computer Science</h4>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="about-info">
+                                    <h6>Skills</h6>
+                                    <h4>HTML, CSS, JS, React</h4>
+                                </div>
+
+                                <div class="about-info">
+                                    <h6>Languages</h6>
+                                    <h4>English, Hindi</h4>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- BUTTONS -->
+                        <div class="mt-4">
+                            <a href="Drashti Resume.pdf" class="btn primary me-3 rounded-4 px-5">
+                                <i class="fas fa-download"></i> Download Resume
+                            </a>
+
+                            <button class="btn outline rounded-4 px-5">
+                                Let's Talk
+                            </button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- State Section -->
+            <section class="stats-section container">
+
+                <div class="row text-center">
+
+                    <div class="col-lg-3 col-md-6 mb-4 reveal">
+                        <div class="stat-card">
+                            <div class="icon circle gray">
+                                <i class="fa-regular fa-face-smile"></i>
+                            </div>
+                            <h2 class="fs-1">232</h2>
+                            <p class="text-white-50 fw-bold">Happy Clients</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4 reveal">
+                        <div class="stat-card">
+                            <div class="icon circle orange">
+                                <i class="fa-solid fa-file-lines"></i>
+                            </div>
+                            <h2 class="fs-1">521</h2>
+                            <p class="text-white-50 fw-bold">Projects</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4 reveal">
+                        <div class="stat-card">
+                            <div class="icon circle green">
+                                <i class="fa-solid fa-headset"></i>
+                            </div>
+                            <h2 class="fs-1">1463</h2>
+                            <p class="text-white-50 fw-bold">Hours Of Support</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4 reveal">
+                        <div class="stat-card">
+                            <div class="icon circle pink">
+                                <i class="fa-solid fa-users"></i>
+                            </div>
+                            <h2 class="fs-1">15</h2>
+                            <p class="text-white-50 fw-bold">Hard Workers</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Skill Section -->
+            <section class="skill container">
+
+                <div class="text-center mb-5 reveal">
+                    <h2 class="skill-title">— Skills —</h2>
+                    <p class="skill-subtitle">
+                        I build modern, responsive and high-performance web applications.
+                    </p>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-6 mb-4 reveal-left">
+                        <div class="skill-box">
+
+                            <h4>Front-end Development</h4>
+
+                            <div class="skill-item">
+                                <div class="skill-head mt-5">
+                                    <span>HTML/CSS</span>
+                                    <span>95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" data-width="95%"></div>
+                                </div>
+                                <p class="skill-desc">
+                                    Expert level knowledge of semantic HTML5 and modern CSS3 techniques
+                                </p>
+                            </div>
+
+                            <div class="skill-item">
+                                <div class="skill-head mt-5">
+                                    <span class="fw-bold" style="letter-spacing: 1px;">JavaScript</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" data-width="85%"></div>
+                                </div>
+                                <p class="skill-desc">
+                                    Strong proficiency in ES6+, DOM manipulation, and modern frameworks
+                                </p>
+                            </div>
+
+                            <div class="skill-item">
+                                <div class="skill-head mt-5">
+                                    <span class="fw-bold" style="letter-spacing: 1px;">React</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" data-width="80%"></div>
+                                </div>
+                                <p class="skill-desc">
+                                    Experience with React hooks, state management, and component architecture
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mb-4 reveal-right">
+                        <div class="skill-box">
+
+                            <h4>Back-end Development</h4>
+
+                            <div class="skill-item">
+                                <div class="skill-head mt-5">
+                                    <span class="fw-bold" style="letter-spacing: 1px;">Node.js</span>
+                                    <span>75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" data-width="75%"></div>
+                                </div>
+                                <p class="skill-desc">
+                                    Server-side JavaScript development with Express and REST APIs
+                                </p>
+                            </div>
+
+                            <div class="skill-item">
+                                <div class="skill-head mt-5">
+                                    <span class="fw-bold" style="letter-spacing: 1px;">Python</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" data-width="80%"></div>
+                                </div>
+                                <p class="skill-desc">
+                                    Python development with Django and data analysis tools
+                                </p>
+                            </div>
+
+                            <div class="skill-item">
+                                <div class="skill-head mt-5">
+                                    <span class="fw-bold" style="letter-spacing: 1px;">SQL</span>
+                                    <span>65%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" data-width="65%"></div>
+                                </div>
+                                <p class="skill-desc">
+                                    Database design, optimization, and complex queries
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Project Section -->
+            <section class="projects container" id="portfolio">
+                <div class="text-center mb-5 reveal">
+                    <h2 class="skill-title">— Portfolio —</h2>
+                    <p class="skill-subtitle">
+                        A collection of my recent work showcasing creativity and modern web development.
+                    </p>
+                </div>
+                <div class="projects-wrapper">
+                    <div class="projects-track">
+                        <div class="project-card">
+                            <div class="project-img">
+                                <img src="images/Project-1.png">
+                            </div>
+                            <div class="project-info">
+                                <h3>Restaurant</h3>
+                                <p>Food Website</p>
+                                <a href="https://drash011.github.io/Restaurant-Website/" target="_blank">View Live</a>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-img">
+                                <img src="images/Project-2.png">
+                            </div>
+                            <div class="project-info">
+                                <h3>TravelTime</h3>
+                                <p>Travel Website</p>
+                                <a href="https://drash011.github.io/Travel-Time/" target="_blank">View Live</a>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-img">
+                                <img src="images/Project-3.png">
+                            </div>
+                            <div class="project-info">
+                                <h3>Dewi</h3>
+                                <p>Business Website</p>
+                                <a href="https://drash011.github.io/Dewi-Website/" target="_blank">View Live</a>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-img">
+                                <img src="images/Project-4.png">
+                            </div>
+                            <div class="project-info">
+                                <h3>Educature</h3>
+                                <p>Education Website</p>
+                                <a href="https://drash011.github.io/Educture-Website/" target="_blank">View Live</a>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-img">
+                                <img src="images/Project-5.png">
+                            </div>
+                            <div class="project-info">
+                                <h3>Crems</h3>
+                                <p>Dessert Website</p>
+                                <a href="https://drash011.github.io/Crems/" target="_blank">View Live</a>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-img">
+                                <img src="images/Project-6.png">
+                            </div>
+                            <div class="project-info">
+                                <h3>Platia</h3>
+                                <p>Restaurant Website</p>
+                                <a href="https://drash011.github.io/Platia-Website/" target="_blank">View Live</a>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-img">
+                                <img src="images/Project-7.png">
+                            </div>
+                            <div class="project-info">
+                                <h3>Axis</h3>
+                                <p>Business Website</p>
+                                <a href="https://drash011.github.io/Axis-Website/" target="_blank">View Live</a>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-img">
+                                <img src="images/Project-8.png">
+                            </div>
+                            <div class="project-info">
+                                <h3>Clinic</h3>
+                                <p>Helth Center Website</p>
+                                <a href="https://drash011.github.io/Clinic-Website/" target="_blank">View Live</a>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-img">
+                                <img src="images/Project-9.png">
+                            </div>
+                            <div class="project-info">
+                                <h3>Coffee</h3>
+                                <p>Cafe Website</p>
+                                <a href="https://drash011.github.io/Coffee-Website/" target="_blank">View Live</a>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-img">
+                                <img src="images/Project-10.png">
+                            </div>
+                            <div class="project-info">
+                                <h3>Spotify Clone</h3>
+                                <p>Music Website</p>
+                                <a href="https://drash011.github.io/Spotify/" target="_blank">View Live</a>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-img">
+                                <img src="images/Project-11.png">
+                            </div>
+                            <div class="project-info">
+                                <h3>Orbit</h3>
+                                <p>Business Website</p>
+                                <a href="https://drash011.github.io/Orbit/" target="_blank">View Live</a>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-img">
+                                <img src="images/Project-12.png">
+                            </div>
+                            <div class="project-info">
+                                <h3>Nexa</h3>
+                                <p>Business Website</p>
+                                <a href="https://drash011.github.io/Nexa-Website/" target="_blank">View Live</a>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-img">
+                                <img src="images/Project-13.png">
+                            </div>
+                            <div class="project-info">
+                                <h3>Creativo</h3>
+                                <p>Business Website</p>
+                                <a href="https://drash011.github.io/Creativo-Website/" target="_blank">View Live</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Service Section -->
+            <section class="service" id="service">
+
+                <div class="container">
+
+                    <div class="service-header text-center reveal">
+                        <h2>— Services —</h2>
+                        <p>I build modern, responsive and high-performance web experiences.</p>
+                    </div>
+
+                    <div class="row align-items-center mt-5">
+
+                        <div class="col-lg-5 reveal-left">
+                            <h1 class="service-title">
+                                Innovative business performance solutions
+                            </h1>
+                        </div>
+
+                        <div class="col-lg-7 reveal-right">
+                            <p class="service-desc">
+                                I design and develop fast, responsive and visually appealing websites
+                                using modern frontend technologies that enhance user experience.
+                            </p>
+
+                            <a href="#" class="btn service-btn">View All Services →</a>
+                        </div>
+
+                    </div>
+
+                    <div class="row mt-5 g-4">
+
+                        <div class="col-lg-4 col-md-6 col-12 mx-auto my-5 reveal-left">
+                            <div class="service-card">
+                                <div class="icon3">
+                                    <i class="fas fa-palette"></i>
+                                </div>
+                                <h3>UI/UX <br> Design</h3>
+                                <p>Designing clean, modern and user-friendly interfaces that enhance user experience and
+                                    engagement.</p>
+                                <div class="corner-icon">
+                                    <i class="fa-solid fa-arrow-up"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12 mx-auto my-5 reveal">
+                            <div class="service-card">
+                                <div class="icon3">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <h3>Frontend <br> Development</h3>
+                                <p>Designing clean, modern and user-friendly interfaces that enhance user experience and
+                                    engagement.</p>
+                                <div class="corner-icon">
+                                    <i class="fa-solid fa-arrow-up"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12 mx-auto my-5 reveal-right">
+                            <div class="service-card">
+                                <div class="icon3">
+                                    <i class="fas fa-mobile-screen-button""></i>
+                                </div>
+                                <h3>Responsive <br> Design</h3>
+                                <p>Creating fully responsive layouts that work seamlessly across all devices and screen sizes.</p>
+                                <div class=" corner-icon">
+                                        <i class="fa-solid fa-arrow-up"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12 mx-auto my-5 reveal-left">
+                            <div class="service-card">
+                                <div class="icon3">
+                                    <i class="fas fa-rocket"></i>
+                                </div>
+                                <h3>Performance <br> Optimization</h3>
+                                <p>Optimizing websites for speed, performance and smooth user experience.</p>
+                                <div class="corner-icon">
+                                    <i class="fa-solid fa-arrow-up"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12 mx-auto my-5 reveal">
+                            <div class="service-card">
+                                <div class="icon3">
+                                    <i class="fas fa-pen-ruler"></i>
+                                </div>
+                                <h3>Website <br> Redesign</h3>
+                                <p>Transforming outdated websites into modern, visually appealing and high-performing
+                                    designs.</p>
+                                <div class="corner-icon">
+                                    <i class="fa-solid fa-arrow-up"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12 mx-auto my-5 reveal-right">
+                            <div class="service-card">
+                                <div class="icon3">
+                                    <i class="fas fa-bug"></i>
+                                </div>
+                                <h3>Debugging & <br> Maintenance</h3>
+                                <p>Fixing bugs, improving performance and maintaining websites for long-term stability.
+                                </p>
+                                <div class="corner-icon">
+                                    <i class="fa-solid fa-arrow-up"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Contact Section -->
+            <section class="contact" id="contact">
+                <div class="container">
+                    <div class="text-center mb-5 reveal">
+                        <h2 class="skill-title">— Portfolio —</h2>
+                        <p class="skill-subtitle">
+                            A collection of my recent work showcasing creativity and modern web development.
+                        </p>
+                    </div>
+
+                    <div class="contact-wrapper">
+
+                        <div class="contact-info reveal-left">
+                            <h3 class="fw-bold">Contact Information</h3>
+                            <p>Feel free to reach out anytime. I'm available for freelance & full-time work.</p>
+
+                            <div class="info-box">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <div>
+                                    <h5>Location</h5>
+                                    <p>Surat, Gujarat, India</p>
+                                </div>
+                            </div>
+
+                            <div class="info-box">
+                                <i class="fa-solid fa-phone"></i>
+                                <div>
+                                    <h5>Phone</h5>
+                                    <p>+91 70164 92334</p>
+                                </div>
+                            </div>
+
+                            <div class="info-box">
+                                <i class="fa-solid fa-envelope"></i>
+                                <div>
+                                    <h5>Email</h5>
+                                    <p>thummard097@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <form class="contact-form reveal-right">
+                            <h3>Get In Touch</h3>
+
+                            <div class="input-group my-4">
+                                <input type="text" required>
+                                <label>Your Name</label>
+                            </div>
+
+                            <div class="input-group my-4">
+                                <input type="email" required>
+                                <label>Your Email</label>
+                            </div>
+
+                            <div class="input-group my-4">
+                                <input type="text" required>
+                                <label>Subject</label>
+                            </div>
+
+                            <div class="input-group my-4">
+                                <textarea rows="5" required></textarea>
+                                <label>Message</label>
+                            </div>
+
+                            <div class="btn-wrapper">
+                                <button type="submit" class="btn my-4">Send Message</button>
+                            </div>
+
+                        </form>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer Section -->
+            <footer class="footer">
+                <div class="footer-content">
+                    <p>
+                        © Copyright <strong>iPortfolio</strong> All Rights Reserved
+                    </p>
+                    <p class="credit">
+                        Designed by <span>BootstrapMade</span>
+                    </p>
+                </div>
+            </footer>
+
+        </div>
+
+        <!-- Scroll to top -->
+        <div class="scroll-top" id="scrollTop">
+            <i class="fa-solid fa-arrow-up"></i>
+        </div>
+
+    </main>
+
+    <!-- BootStrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JvaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>

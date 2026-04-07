@@ -1,0 +1,304 @@
+/* Large Screen */
+@media (min-width: 1199px) {
+
+  .sidebar-wrap {
+    position: fixed;
+    transform: none !important;
+    visibility: visible !important;
+  }
+
+  .main {
+    margin-left: 300px;
+    max-width: 1200px;
+    margin-right: auto;
+    padding: 40px;
+  }
+
+  .toggle-btn {
+    display: none;
+  }
+
+  .hero-text {
+    text-align: left;
+  }
+
+  .btns {
+    justify-content: flex-start;
+  }
+
+  .social2 {
+    justify-content: flex-start;
+  }
+
+  .name {
+    font-size: 64px;
+  }
+}
+
+
+/* Medium Screen */
+@media (max-width: 992px) {
+
+  .main {
+    margin-left: 0 !important;
+    padding: 20px !important;
+  }
+
+  .container,
+  .container-fluid {
+    max-width: 600px;
+  }
+
+  .hero-text {
+    text-align: center;
+    padding-left: 0 !important;
+  }
+
+  .name {
+    font-size: 38px;
+  }
+
+  .desc {
+    margin: 10px auto;
+  }
+
+  .btns {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .social2 {
+    justify-content: center;
+    display: flex;
+  }
+
+  .image-box {
+    margin: 30px auto 0;
+    text-align: center;
+  }
+
+  .about .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .stats {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .about-content .row>div {
+    width: 100%;
+    text-align: center;
+  }
+
+  .about-info {
+    text-align: center;
+  }
+
+  .about-info {
+    margin-bottom: 15px;
+  }
+
+  .projects {
+    height: auto !important;
+  }
+
+  .projects-wrapper {
+    position: static;
+    height: auto;
+    overflow: visible;
+  }
+
+  .projects-track {
+    flex-wrap: wrap;
+    justify-content: center;
+    transform: none !important;
+    gap: 20px;
+  }
+
+  .project-card {
+    width: 45%;
+  }
+
+  .service-title {
+    text-align: center;
+  }
+
+  .service-desc {
+    text-align: center;
+  }
+
+  .service-btn {
+    display: block;
+    margin: 20px auto;
+  }
+
+  .contact-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* Small Screen */
+@media (max-width: 768px) {
+
+  .hero-text {
+    text-align: center;
+  }
+
+  .name {
+    font-size: 28px;
+  }
+
+  .typing {
+    font-size: 18px;
+  }
+
+  .desc {
+    font-size: 15px;
+  }
+
+  .btns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .social2 {
+    justify-content: center;
+  }
+
+  .profile-img {
+    width: 220px;
+  }
+
+  .image-box {
+    width: 240px;
+    margin: 20px auto;
+  }
+
+  .about .row {
+    flex-direction: column;
+  }
+
+  .about-card {
+    margin-bottom: 20px;
+  }
+
+  .stats {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .skill-box {
+    padding: 20px;
+  }
+
+  .projects {
+    height: auto !important;
+  }
+
+  .projects-wrapper {
+    position: static;
+    height: auto;
+    overflow: visible;
+  }
+
+  .projects-track {
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+    transform: none !important;
+  }
+
+  .project-card {
+    width: 100%;
+  }
+
+  .project-img {
+    height: 250px;
+  }
+
+  .service-title {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .service-desc+.service-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  .service-desc {
+    text-align: center;
+  }
+
+  .service-btn {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .contact-wrapper {
+    grid-template-columns: 1fr !important;
+  }
+
+  .contact-info,
+  .contact-form {
+    padding: 20px !important;
+  }
+}
+
+
+/* Extra Small Screen */
+@media (max-width: 576px) {
+
+  .image-box::before {
+    content: "";
+    width: 280px !important;
+    height: 280px !important;
+    right: -5px;
+  }
+
+  .btns::before {
+    content: "";
+    width: 170px !important;
+    height: 170px !important;
+    left: 30px;
+  }
+
+  .name {
+    font-size: 24px;
+  }
+
+  .typing {
+    font-size: 16px;
+  }
+
+  .desc {
+    font-size: 14px;
+  }
+
+  .btn {
+    font-size: 14px;
+    margin: 10px 0;
+    align-self: center;
+  }
+
+  .project-img {
+    height: 500px;
+  }
+
+  .service .col-lg-7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
