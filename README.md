@@ -49,7 +49,7 @@ portfolio/
 ---
 
 
-## 🧑‍💻 About Me
+## 👩‍💻 About Me
 
 I am a passionate Frontend Developer with a strong foundation in building responsive and visually appealing web interfaces. I enjoy turning ideas into real-world web applications and continuously improving my skills.
 
